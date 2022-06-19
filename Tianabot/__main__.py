@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="࿈𝑴𝒐𝒓𝒆 𝑩𝒊𝒕𝒔", url="https://t.me/NightVission"), 
+                  [InlineKeyboardButton(text="࿈𝑴𝒐𝒓𝒆 𝑩o𝒕𝒔", url="https://t.me/EpicBotsSl"), 
                    InlineKeyboardButton(text="࿈𝑺𝒖𝒑𝒑𝒐𝒓𝒕", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -711,14 +711,14 @@ Support
         )
     elif query.data == "tiana_source":
         query.message.edit_text(
-            text="""*𝑾𝒉𝒊𝒕𝒆 𝑺𝒏𝒂𝒌𝒆 𝒊𝒔 𝑵𝒊𝒈𝒉𝒕 𝑽𝒊𝒔𝒔𝒊𝒐𝒏 𝑩𝒐𝒕 𝑰𝒏𝒅𝒖𝒔𝒕𝒓𝒚𝒔 𝑷𝒓𝒐𝒋𝒆𝒄𝒕.*
+            text="""*𝑾𝒉𝒊𝒕𝒆 𝑺𝒏𝒂𝒌𝒆 𝒊𝒔 𝑵𝒊𝒈𝒉𝒕 </ᴇᴘɪᴄ ʙᴏᴛs <s/ʟ>🇱🇰 𝑰𝒏𝒅𝒖𝒔𝒕𝒓𝒚𝒔 𝑷𝒓𝒐𝒋𝒆𝒄𝒕.*
 
 *Click below Button to Get Source Code.*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="᳀𝑴𝒐𝒓𝒆 𝑩𝒐𝒕𝒔", url="https://t.me/NightVission"),                 
+                    InlineKeyboardButton(text="᳀𝑴𝒐𝒓𝒆 𝑩𝒐𝒕𝒔", url="https://t.me/EpicBotsSl"),                 
                     InlineKeyboardButton(text="⳼𝑩𝒂𝒄𝒌", callback_data="about_"),
                  ]    
                 ]
@@ -749,7 +749,7 @@ def tiana_about_callback(update: Update, context: CallbackContext):
                [
                  [
                      InlineKeyboardButton(text="〠 𝒂𝒃𝒐𝒖𝒕", callback_data="tiana_about"),
-                     InlineKeyboardButton(text="𝑵𝒊𝒈𝒉𝒕 𝑽𝒊𝒔𝒔𝒊𝒐𝒏 𝑩𝒐𝒕 𝑰𝒏𝒅𝒖𝒔𝒕𝒓𝒚", callback_data="tiana_source"),
+                     InlineKeyboardButton(text="</ᴇᴘɪᴄ ʙᴏᴛs <s/ʟ>🇱🇰", callback_data="tiana_source"),
                  ],
                  [  
                     InlineKeyboardButton(text="࿈ 𝒔𝒖𝒑𝒑𝒐𝒓𝒕", callback_data="tiana_support"),
@@ -1060,7 +1060,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "࿈𝑾𝒉𝒊𝒕𝒆 𝑺𝒏𝒂𝒌𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒅 𝑺𝒖𝒄𝒔𝒆𝒔𝒇𝒖𝒍𝒍𝒚༐༐༐")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "࿈𝑾𝒉𝒊𝒕𝒆 𝑺𝒏𝒂𝒌𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒅 𝑺𝒖𝒄𝒔𝒆𝒔𝒇𝒖𝒍𝒍𝒚༐ Join more ditails [</ᴇᴘɪᴄ ʙᴏᴛs <s/ʟ>🇱🇰](t.me/EpicBotsSl) 🚀")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
