@@ -1,5 +1,5 @@
 {
-      "name": "White Bot",
+      "name": "White Snake Bot",
       "logo": "https://telegra.ph/file/9b030740eb23d49d58f04.jpg",
       "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon",
       "keywords": [
@@ -11,7 +11,7 @@
          "tianabot",
          "telegram"
       ],   
-   "repository": "https://github.com/Captainamarica/white-snake",
+   "repository": "https://github.com/EpicBotSl/WhiteSnake",
    "addons": [
       {
          "options": {
@@ -32,7 +32,7 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": "5420426899:AAF0bF_9fro2hfvTJhGqTMvxEjzkplDkBYU"
+         "value": "5420426899:AAF0bF_9fro2hfvTJhGqTMvxEjzkplDkBYx"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
@@ -77,7 +77,7 @@
       },
       "ASS_USERNAME": {
          "description": "Your Musicbot Assistant username without the @",
-         "value": "Nightvissionmusic"
+         "value": "EpicMusicAsisten"
       },
       "BOT_NAME": {
          "description": "Your Bot Name",
@@ -86,12 +86,12 @@
       "UPDATE_CHANNEL": {
          "description": "Your Telegram Bot Update Channel username Without @ like: TianaxUpdates.",
          "required": true,
-         "value": "NightVission"
+         "value": "EpicBotsSl"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username Without @ like: TianaxSupport.",
          "required": true,
-         "value": "NightVissionSupport"
+         "value": "EpicChats"
       },
       "START_IMG": {
          "description": "Enter Your Bot Image Telegraph Link",
